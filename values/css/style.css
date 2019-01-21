@@ -1,0 +1,335 @@
+@font-face {
+    font-family:"Barlow-SemiBold";
+    src: url("../font/Barlow-SemiBold.otf");
+}
+@font-face {
+    font-family:"BebasNeueBold";
+    src: url("../font/BebasNeueBold.ttf");
+}
+@font-face {
+    font-family:"Barlow-Medium";
+    src: url("../font/Barlow-Medium.otf");
+}
+@font-face {
+    font-family:"Barlow-Bold";
+    src: url("../font/Barlow-Bold.otf");
+}
+
+p{
+	margin:0;
+	padding:0;
+}
+li{
+	list-style: none;
+	/*display:inline-block;*/
+}
+.red-cell{
+    color:rgb(255, 66, 0) !important;
+}
+ 
+tr:nth-child(odd) {background-color: #f2f2f2;}
+table {
+    width: 100%;
+    /* padding: 0px 50px; */
+    text-align: center;
+    background-color: transparent;
+    margin: auto;
+}
+th {
+    text-align: center;
+    padding: 22px 15px;
+    font-size: 18px;
+}
+.examples{
+    margin: 2% 0% 0%;
+}
+
+.container-fluid{
+	padding:0px 50px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0px;
+    font-size: 20px;
+    font-family:"Barlow-SemiBold";
+}
+.step{
+    background-image: url("http://www.arfeenkhan.com/incredibleyou/values/images/stepbg.png");
+    background-size: cover;
+}
+.step_arg{
+	display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.step_no  {
+    padding: 6px 0px;
+    font-size: 110px;
+    /* line-height: 60px; */
+    color: #ff4200;
+    text-transform: uppercase;
+    font-family: "BebasNeueBold";
+    /* text-align: right; */
+}
+.step_desc{
+    flex-basis: calc(62% - 40px);
+    font-family: "Barlow-Medium";
+    font-size: 20px;
+    color: #fff;
+    padding: 45px 0px;
+    line-height: 30px;
+}
+.second-sec{
+        padding: 0px 35px 10%;
+}
+.groups{
+	border: 1px solid #000;
+	    margin-top: 4%;
+}
+.group_name{
+	padding: 15px;
+    text-align: center;
+    font-family: Barlow-Bold;
+    font-size: 25px;
+}
+/*******************inline-table****************/
+.box{
+    display: inline-block;
+    padding: 0px 35px;
+    margin: 0;
+    list-style: none;  
+    width: 100%;
+}
+.wordclass {
+    margin: 12px;
+    font-family: "Barlow-SemiBold";
+    font-size: 20px;
+    text-align: left;
+    cursor: pointer;
+    color: #8f8f8f;
+    padding: 5px 10px;
+    display: inline-table;
+    float: left;
+    width:14%;
+
+}
+.wordclass:hover{
+	color: #ff4200;
+}
+/********************flex****************************/
+/*.box{
+    padding: 0px 35px;
+    margin: 0;
+    list-style: none;
+    -ms-box-orient: horizontal;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -moz-flex;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: wrap row;
+    flex-flow: wrap row;
+    width:100%;
+    justify-content: space-around;
+}
+.wordclass {
+    margin: 10px;
+    font-family: "Barlow-SemiBold";
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
+    color: #8f8f8f;
+    flex-flow: wrap row;
+    padding: 5px;
+    text-align: center;
+}*/
+.submit{
+    width: 100%;
+    cursor: pointer;
+    border: none;
+    background-color: #ff4200;
+    font-family: Barlow-Bold;
+    font-size: 40px;
+    color: #fff;
+    padding: 8px;
+    margin-top: 5%;
+    position: fixed;
+    /* top: 0; */
+    bottom: 0;
+}
+
+/**************************index2*************************/
+.final_step{
+    margin: 2% 0;
+}
+
+.final{
+	text-align:center;
+	margin-top: 4%;
+	padding: 0;
+}
+
+.final p{
+    border: 1px solid #000;
+    width: 90%;
+    margin: auto;
+    font-family: "Barlow-SemiBold";
+    font-size:30px;
+    color:#8f8f8f;
+    padding: 25px;
+    cursor: pointer;
+}
+.final p:hover{
+	color: #ff4200;
+	border-color: #ff4200;
+}
+/*MOBILE*/
+.inner-mobcontainer{
+	padding: 15px;
+	min-height:100vh;
+	background-size: cover;
+	background-position: center;
+    background-image: url(http://www.arfeenkhan.com/incredibleyou/values/images/mobbg.png);
+}
+.main-title{
+	color: #fff;
+    text-transform: uppercase;
+    font-family: "BebasNeueBold";
+    font-size: 100px;
+    text-align: center;
+    line-height: 100px;
+    padding: 40px;
+}
+
+.short-desc{
+	color: #fff;
+    font-family: "Barlow-Medium";
+    text-align: center;
+    font-size: 22px;
+    line-height: 30px;
+    /* padding: 40px; */
+    font-weight: 100;
+    padding: 0px 35px 20px;
+}
+.login
+{
+	background-image: linear-gradient(to right, #ff7d00, #ff7f00, #ffc700);
+	width: 100%;
+	text-transform: uppercase;
+    cursor: pointer;
+    border: none;
+    /*background-color: #ff4200;*/
+    font-family: Barlow-Bold;
+    font-size: 22px;
+    color: #fff;
+    padding: 15px;
+    margin: 8% 0 5%;
+}
+.user {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+}
+.extra{padding:15px;min-height:100vh;}
+.login-page{
+	padding:30px 40px;
+}
+.login-heading{
+	font-family: "BebasNeueBold";
+    font-size: 100px;
+    text-align:center;
+    /*background: linear-gradient(to right, #ff7d00, #ff7f00, #ffc700);*/
+}
+.form-footer{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15%;
+}
+.cross{text-align: right;}
+/*****************RESPONSIVE CODE***********************/
+@media screen and (max-width:950px) {
+.step {
+    background-position: 65% 100%;
+}
+.step_desc {
+    flex-basis: calc(75% - 40px);
+}
+}
+
+
+
+
+@media screen and (max-width:768px) {
+.step{
+	background-position: 80% 100%;
+	}
+.step_desc {
+        flex-basis: calc(70% - 40px);
+    text-align: justify;
+    line-height: 27px;
+
+	}
+}
+
+@media screen and (max-width:640px) {
+.container-fluid {
+    padding: 0px 30px;
+}
+.step_arg{
+	display: block;
+}
+.step {
+    background:#000;
+}
+.step_no{
+	width:100%;
+	text-align: center;
+       line-height: 50px;
+    font-size: 65px;
+    padding-top: 20px;
+}
+.step_desc{
+	font-size: 17px;
+	width:100%;
+	padding: 20px 0px 25px;
+	flex-basis: calc(100% - 0px);
+}
+.header{
+	font-size:15px;
+}
+.wordclass {
+    margin: 12px;
+    }
+}
+
+@media screen and (max-width:440px) {
+.main-title {
+    font-size: 85px;
+    line-height: 75px;
+    padding: 20px 40px 40px;
+}
+.short-desc {
+    font-size: 20px;
+    line-height: 26px;
+    padding: 0px 25px 20px;
+}
+}
+
+@media screen and (max-width:380px) {
+.main-title {
+	font-size: 74px;
+    padding: 20px 25px 40px;
+}
+.short-desc {
+    font-size: 18px;
+    line-height: 26px;
+    padding: 0px 10px 20px;
+}
+
+}

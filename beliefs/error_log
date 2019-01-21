@@ -1,0 +1,8 @@
+[08-Jan-2019 03:48:25 America/Denver] PHP Warning:  Creating default object from empty value in /home/worldsuc/public_html/arfeenkhan/incredibleyou/beliefs/actionget.php on line 54
+[08-Jan-2019 04:10:18 America/Denver] PHP Fatal error:  Cannot redeclare class iSDKException in /home/worldsuc/public_html/arfeenkhan/incredibleyou/beliefs/isdk.php on line 16
+[08-Jan-2019 04:10:19 America/Denver] PHP Fatal error:  Cannot redeclare class iSDKException in /home/worldsuc/public_html/arfeenkhan/incredibleyou/beliefs/isdk.php on line 16
+[08-Jan-2019 04:10:49 America/Denver] PHP Warning:  Creating default object from empty value in /home/worldsuc/public_html/arfeenkhan/incredibleyou/beliefs/actionget.php on line 55
+[08-Jan-2019 04:10:54 America/Denver] PHP Warning:  Creating default object from empty value in /home/worldsuc/public_html/arfeenkhan/incredibleyou/beliefs/actionget.php on line 55
+[08-Jan-2019 04:12:19 America/Denver] PHP Warning:  Creating default object from empty value in /home/worldsuc/public_html/arfeenkhan/incredibleyou/beliefs/actionget.php on line 32
+[08-Jan-2019 04:12:25 America/Denver] PHP Warning:  Creating default object from empty value in /home/worldsuc/public_html/arfeenkhan/incredibleyou/beliefs/actionget.php on line 32
+[08-Jan-2019 04:12:28 America/Denver] PHP Warning:  Creating default object from empty value in /home/worldsuc/public_html/arfeenkhan/incredibleyou/beliefs/actionget.php on line 32

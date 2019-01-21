@@ -1,0 +1,124 @@
+@charset "utf-8";
+@font-face {
+    font-family:"Barlow-SemiBold";
+    src: url("../font/Barlow-SemiBold.otf");
+}
+@font-face {
+    font-family:"Barlow-Regular";
+    src: url("../font/Barlow-Regular.otf");
+}
+@font-face {
+    font-family:"BebasNeueBold";
+    src: url("../font/BebasNeueBold.ttf");
+}
+@font-face {
+    font-family:"Barlow-Medium";
+    src: url("../font/Barlow-Medium.otf");
+}
+@font-face {
+    font-family:"Barlow-Bold";
+    src: url("../font/Barlow-Bold.otf");
+}
+@font-face {
+    font-family:"Brandon-Grotesque-Black";
+    src: url("../font/Brandon-Grotesque-Black.otf");
+}
+
+
+.login-form{
+    width: 60%;
+    margin: auto;
+    margin-top: 20%;
+}
+
+.formbox{
+	width:100%;
+    display: flex;
+}
+.img_sec{
+	width:50%;
+}
+.img_sec img {
+    max-width: 100%;
+    width: 100%;
+    min-height: 100vh;
+}
+.login-sec {
+    width: 50%;
+    /* margin: auto; */
+    text-align: center;
+}
+.login1{
+	width:100%;
+}
+.login {
+    line-height: 100px;
+    background: linear-gradient(to right, #ff8100, #ffbc00);
+    font-size: 110px;
+    /* color: #ff6800; */
+    font-family: "BebasNeueBold";
+    text-align: left;
+    width: 100%;
+    /* margin: 12% 0% 3% 0%; */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 0px;
+}
+.id-pass {
+    padding-top: 23px;
+    width: 85%;
+    /*margin: auto;*/
+}
+.username {
+    outline-color: #000000;
+    font-size: 16px;
+    padding: 20px;
+    width: 100%;
+    height: 56px;
+    margin-bottom: 8%;
+    border-radius: 4px;
+    border: none;
+    box-shadow: none;
+    border: 1px solid #9f9999;
+    font-family: "Barlow-Medium";
+}
+.password {
+    outline-color: #000000;
+    font-size: 16px;
+    padding: 20px;
+    width: 100%;
+    height: 50px;
+    margin-bottom: 8%;
+    border-radius: 4px;
+    border: none;
+    box-shadow: none;
+    border: 1px solid #9f9999;
+    font-family: "Barlow-Medium";
+}
+.start-button {
+    width: 100%;
+    height: 65px;
+    background-image: linear-gradient(to right, #ff8100, #ff8e00, #ffa400, #ffbc00, #ffc800);
+    border: none;
+    border-radius: 4px;
+    font-size: 20px;
+    color: #fff;
+    font-weight: 700;
+    margin-bottom: 10px;
+    font-family: "Brandon-Grotesque-Black";
+}
+.bottom-sec{
+	display:flex;
+	justify-content: space-between;
+    font-family:"Barlow-Regular";
+    font-size:15px;
+}
+
+@media screen and (max-width:800px) {
+    .login-form {
+    width: 75%;
+    }
+    .id-pass {
+    width: 100%;
+}
+}
